@@ -9,12 +9,12 @@
                 <tree string="Sale Report" create="false">
                     <field name='order_partner_id'/>
                     <field name="product_id"/>
-                    <field name="product_uom"/>
                     <field name="lot"/>
-                    <field name="product_uom_qty"/>
-                    <field name="price_unit"/>
-                    <field name="price_total"/>
-                    <field name="order_id"/>
+                    <!--<field name="product_uom"/>-->
+                    <field name="product_uom_qty" string="Qty Sold"/>
+                    <field name="price_unit" string="Pirce"/>
+                    <field name="price_total" string="Amount" sum="Total" widget="monetary"/>
+                    <field name="order_id" string="ADL N°"/>
                 </tree>
         </field>
     </record>
